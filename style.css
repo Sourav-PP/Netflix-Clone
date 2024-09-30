@@ -1,0 +1,359 @@
+*  {
+    border: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    background-color: black;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.background {
+    height: 808px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(images/background.jpg);
+    background-size: cover;
+    background-position: right;
+    box-shadow: rgba(0, 0, 0, 1) 0px 50px 80px inset;        
+}
+
+.logo {
+    width: 148px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.nav-signin select {
+    appearance: none;
+    width: 124px;
+    height: 32px;
+    background-color: transparent;
+    border: px solid white;
+    border-radius: 6px;
+    color: #fff;
+    padding: 0 10px 0 20px;
+}
+
+.nav-signin select option {
+    background-color: #fff;
+    color: #000;
+}
+
+.nav-signin button {
+    width: 76px;
+    height: 32px;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+/* section get started */
+
+.get-started {
+    width: 100%;
+    height: 534px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 26px;
+}
+
+.get-started h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.get-started p {
+    margin-top: 25px;
+}
+
+.get-started form {
+    margin-top: 20px;
+} 
+
+.get-started input {
+    width: 367px;
+    height: 56px;
+    border-radius: 4px;
+    background-color: rgba(58, 58, 58, 0.4);
+    border: 1px solid rgb(166, 166, 166) ;
+    outline: none;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.get-started input::placeholder {
+    color: rgb(195, 195, 195);
+    font-weight: bold;
+}
+
+.get-started button {
+    width: 213px;
+    height: 56px;
+    border: none;
+    outline: none;
+    background-color: red;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.curved-div {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background:linear-gradient(#121d48,#03001c,#000000);
+    border-radius: 50% 50% 0 0 ;
+    border-top: 6px solid rgb(255, 220, 226);
+    border-color: #e00e1b;
+    /* transform: translateY(-110px); */
+}
+
+/* Section contents */
+
+.main {
+    margin-top: 60px;
+}
+
+.main select {
+    height: 40px;
+    padding: 10px;
+    margin-top: 18px;
+    background: rgba(55, 55, 55, 0.3);
+    border: px solid grey;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.main select:focus {
+    outline: 2px solid white;
+}
+
+#contry {
+    width: 95px;
+}
+
+#movie {
+    width: 122px;
+    margin-left: 15px;
+}
+
+/* movie boxes */
+
+.movie-option {
+    height: 268px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.box {
+    width: 180px;
+    height: 252px;
+    background-color: grey;
+    border-radius: 18px;
+    position: relative;   
+}
+
+.n {
+    -webkit-text-stroke: 2px #fff; 
+    font-size: 120px;
+    font-weight: 800;
+    position: absolute;
+    top: 100px;
+    left: -30px;
+    color: rgb(0, 0, 0);    
+}
+
+.box1 {
+    background-image: url(images/Sector36.jpg);
+    background-size: cover;
+    background-position: center ;
+}
+
+.box2 {
+    background-image: url(images/MrBachan.jpg);
+    background-size: cover;
+    background-position: center ;
+}
+
+.box3 {
+    background-image: url(images/BadBoys.jpg);
+    background-size: cover;
+    background-position: center ;
+}
+
+.box4 {
+    background-image: url(images/RebelRidge.jpg);
+    background-size: cover;
+    background-position: center ;
+}
+
+.box5 {
+    background-image: url(images/Aay.jpg);
+    background-size: cover;
+    background-position: center ;
+}
+
+.out {
+    margin-top: 40px;
+}
+
+/* seocnd box section */
+
+.box-section {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.rect {
+    width: 290px;
+    height: 264px;
+    background: linear-gradient(to bottom right, #192147,#220e16);
+    border-radius: 15px;
+    padding: 18px;
+}
+
+.rect p {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.rect i {
+    font-size: 50px;
+    color: #770030;
+    position: relative;
+    top: 93px;
+    left: 190px;
+}
+
+/* Qustion boxes */
+
+.quest {
+    height: 84px;
+    margin-top: 10px;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    font-size: 25px;
+    font-weight: 600;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.quest:hover {
+    background-color: #4e4e4e;
+}
+
+.quest i {
+    font-size: 30px;
+}
+
+/* Bottom form */
+
+.btm-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 85px;
+}
+
+.btm-form input {
+    width: 561px;
+    height: 56px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 4px;
+    padding-left: 20px;
+    background-color: rgba(82, 82, 82, 0.2);
+    color: white;
+    font-size: 14px;
+}
+.btm-form button {
+    width: 213px;
+    height: 56px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+    border: none;
+    color: #fff;
+}
+
+.btm-form form {
+    margin-top: 20px;
+}
+
+/* Footer */
+
+footer {
+    height: 368px;
+    padding-top: 60px;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+footer li{
+    list-style: none;
+    margin-top: 16px;
+}
+
+
+footer a {
+    color: #ffffffb3;
+}
+
+footer select {
+    width: 124px;
+    height: 32px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background: rgba(39, 39, 39, 0.3);
+    appearance: none;
+    margin-top: 50px;
+    padding-left: 15px;
+    color: #fff;
+}
+
+footer p {
+    margin-top: 25px;
+}
+
+
+
+
+
